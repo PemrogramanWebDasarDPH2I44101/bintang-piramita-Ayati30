@@ -1,4 +1,8 @@
 <?php
-//tuliskan loopingnya di sini
-// mencoba untuk edit file
+for($a=1; $a<=5; $a++){
+    for($c=5; $c>=$a; $c-=1){
+        echo '*';
+    }
+    echo "<br>";
+}
 ?>
